@@ -15,5 +15,13 @@
         "serve-favicon": "~2.2.1",
         "mongodb": "~2.0.33",
         "monk": "~1.0.1"
-    }
+    },
+    "engines": {
+       "node": "4.1.2",
+       "npm": "2.14.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://git.heroku.com/stormy-bastion-8041"
+  }
 }
