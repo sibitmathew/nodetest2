@@ -7,7 +7,7 @@ var app = require('express')();
 
 
 //app.set('port', process.env.PORT || 5000);
-app.set('port', process.env.PORT || 3000);
+//app.set('port', process.env.PORT || 3000);
 //app.set("view options", {layout: false});  //This one does the trick for rendering static html
 //app.engine('html', require('ejs').renderFile); 
 var http = require('http').Server(app);
@@ -42,9 +42,9 @@ router.get('/', function(req, res){
 // io.on('connection', function(socket){
 //   console.log('a user connected');
 // });
-      http.listen(3000, function(req,res){
-         console.log('listening on :5000');
-        });
+      // http.listen(3000, function(req,res){
+      //    console.log('listening on :5000');
+      //   });
 // var server = http.createServer(app).listen(3000, function() {
 //     console.log('Https App started');
 // });
