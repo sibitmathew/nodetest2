@@ -6,7 +6,7 @@ var app = require('express')();
 
 
 
-//app.set('port', process.env.PORT || 5000);
+app.set('port', process.env.PORT || 5000);
 //app.set('port', process.env.PORT || 3000);
 //app.set("view options", {layout: false});  //This one does the trick for rendering static html
 //app.engine('html', require('ejs').renderFile); 
