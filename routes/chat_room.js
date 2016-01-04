@@ -42,8 +42,8 @@ router.get('/', function(req, res){
   
 });
 
-http.createServer(app).listen(app.get('port') ,app.get('ip'), function () {
-    console.log("✔ Express server listening at %s:%d ", app.get('ip'),app.get('port'));
+http.createServer(app).listen(app.get('port') ,app.get('ipaddr'), function () {
+    console.log("Express server listening at %s:%d ", app.get('ipaddr'),app.get('port'));
     server();
 });
 
