@@ -8,7 +8,7 @@ var app = require('express')();
 
 //app.set('port', process.env.PORT || 5000);
 //app.set('port', process.env.PORT || 3000);
-app.set('port', process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 3002); 
+app.set('port', process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 8080); 
 app.set('ipaddr', process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1");  
 //app.set("view options", {layout: false});  //This one does the trick for rendering static html
 //app.engine('html', require('ejs').renderFile); 
@@ -42,14 +42,14 @@ router.get('/', function(req, res){
   
 });
 
-// http.createServer(app).listen(app.get('port') ,app.get('ipaddr'), function () {
-//     console.log("Express server listening at %s:%d ", app.get('ipaddr'),app.get('port'));
-//     server();
-// });
+ // http.createServer(app).listen(app.get('port') ,app.get('ipaddr'), function () {
+ //     console.log("Express server listening at %s:%d ", app.get('ipaddr'),app.get('port'));
+ //     server();
+ // });
 
-        http.listen(3002, function(req,res){
+         http.listen(8080, function(req,res){
            console.log('listening on :5000');
-          });
+           });
 
 
 
