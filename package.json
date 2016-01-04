@@ -2,6 +2,7 @@
     "name": "nodetest2b",
     "version": "0.0.0",
     "private": true,
+    "main": "app.js",
     "scripts": {
         "start": "node app.js",
         "postinstall" : "export HOME=/var/lib/openshift/568a04432d527199280000eb/app-root/runtime/repo; ./node_modules/bower/bin/bower install"
