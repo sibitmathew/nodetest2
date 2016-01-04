@@ -42,9 +42,9 @@ router.get('/', function(req, res){
 // io.on('connection', function(socket){
 //   console.log('a user connected');
 // });
-      // http.listen(3000, function(req,res){
-      //    console.log('listening on :5000');
-      //   });
+       http.listen(5000, function(req,res){
+          console.log('listening on :5000');
+         });
 // var server = http.createServer(app).listen(3000, function() {
 //     console.log('Https App started');
 // });
