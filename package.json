@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "start": "node ./bin/www"
+        "start": "node ./bin/www",
         "postinstall" : "export HOME=/var/lib/openshift/568a04432d527199280000eb/app-root/runtime/repo; ./node_modules/bower/bin/bower install"
 
     },
