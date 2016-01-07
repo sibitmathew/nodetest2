@@ -17,8 +17,9 @@
     <script src="../javascripts/socket.io-1.3.7.js"></script>
     <script src="../javascripts/jquery-1.11.1.js"></script>
   <script>
-  var socket = io('http://localhost:3002');
-  //var socket = io('http://stm-chat.herokuapp.com/chat_room:5000');
+  //var socket = io.connect('http://localhost:5000');
+  //var socket = io.connect('http://stm-chat.eu-1.evennode.com:5000');
+  var socket=io('0.0.0.0:5000');
   $(document).ready(function() {
   //   socket.on('news', function (data) {
   //   console.log(data);

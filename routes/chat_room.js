@@ -6,8 +6,8 @@ var app = require('express')();
 
 
 
+app.set('port', process.env.PORT || 5000);
 //app.set('port', process.env.PORT || 5000);
-app.set('port', process.env.PORT || 3002);
 //app.set('port', process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 3002); 
 //app.set('ipaddr', process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1");  
 //app.set("view options", {layout: false});  //This one does the trick for rendering static html
@@ -15,7 +15,7 @@ app.set('port', process.env.PORT || 3002);
 var http = require('http').Server(app);
 //var http = require('http');
 
-var io = require('socket.io')(http);
+var io = require('socket.io').listen(http);
 
 //io.emit('recieve', { for: 'everyone' });
 
@@ -29,7 +29,7 @@ router.get('/', function(req, res){
 
  io.on('connection', function (socket) {
   //socket.emit('recieve', { msg: 'world' });
-   io.on('recieve', function (data) {
+   socket.on('recieve', function (data) {
      console.log(data);
    });
   socket.on('send', function (data) {
@@ -47,7 +47,7 @@ router.get('/', function(req, res){
  //     server();
  // });
 
-         http.listen(3002, function(req,res){
+         http.listen(5000, function(req,res){
            console.log('listening on :5000');
            });
 
