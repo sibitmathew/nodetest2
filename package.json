@@ -17,7 +17,7 @@
         "mongodb": "~2.0.33",
         "monk": "~1.0.1",
         "ejs": "~0.7.2",
-        "socket.io": "latest",
+        "socket.io": "0.9.6",
         "bower": "1.2.6"
     },
     "engines": {
