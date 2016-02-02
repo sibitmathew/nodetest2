@@ -1,0 +1,238 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.2
+4 verbose readDependencies loading dependencies from /Users/kemuri/mean_projects/node_projects/nodetest2/package.json
+5 verbose install where, deps [ '/Users/kemuri/mean_projects/node_projects/nodetest2',
+5 verbose install   [ 'body-parser',
+5 verbose install     'cookie-parser',
+5 verbose install     'debug',
+5 verbose install     'express',
+5 verbose install     'ws',
+5 verbose install     'jade',
+5 verbose install     'morgan',
+5 verbose install     'serve-favicon',
+5 verbose install     'mongodb',
+5 verbose install     'monk',
+5 verbose install     'ejs',
+5 verbose install     'socket.io' ] ]
+6 verbose install where, peers [ '/Users/kemuri/mean_projects/node_projects/nodetest2', [] ]
+7 verbose installManyTop reading for lifecycle /Users/kemuri/mean_projects/node_projects/nodetest2/package.json
+8 info preinstall nodetest2b@0.0.0
+9 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/body-parser/package.json
+10 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/bower/package.json
+11 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/cookie-parser/package.json
+12 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/debug/package.json
+13 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ejs/package.json
+14 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/express/package.json
+15 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/http-proxy/package.json
+16 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/jade/package.json
+17 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/mongodb/package.json
+18 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/monk/package.json
+19 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/morgan/package.json
+20 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/serve-favicon/package.json
+21 verbose installManyTop reading scoped package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/socket.io/package.json
+22 info package.json bower@1.2.6 No license field.
+23 info package.json monk@1.0.1 No license field.
+24 info package.json socket.io@0.9.6 No license field.
+25 info package.json ejs@0.7.2 No license field.
+26 verbose readDependencies loading dependencies from /Users/kemuri/mean_projects/node_projects/nodetest2/package.json
+27 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/body-parser/package.json
+28 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/bower/package.json
+29 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/cookie-parser/package.json
+30 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/debug/package.json
+31 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ejs/package.json
+32 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/express/package.json
+33 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/http-proxy/package.json
+34 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/jade/package.json
+35 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/mongodb/package.json
+36 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/monk/package.json
+37 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/morgan/package.json
+38 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/serve-favicon/package.json
+39 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/socket.io/package.json
+40 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/.bin/bower/package.json
+41 verbose targetResolver reading package data from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/.bin/jade/package.json
+42 verbose already installed skipping monk@~1.0.1 /Users/kemuri/mean_projects/node_projects/nodetest2
+43 verbose already installed skipping ejs@~0.7.2 /Users/kemuri/mean_projects/node_projects/nodetest2
+44 verbose already installed skipping socket.io@0.9.6 /Users/kemuri/mean_projects/node_projects/nodetest2
+45 verbose already installed skipping body-parser@~1.12.4 /Users/kemuri/mean_projects/node_projects/nodetest2
+46 verbose already installed skipping debug@~2.2.0 /Users/kemuri/mean_projects/node_projects/nodetest2
+47 verbose already installed skipping cookie-parser@~1.3.5 /Users/kemuri/mean_projects/node_projects/nodetest2
+48 verbose already installed skipping express@~4.12.4 /Users/kemuri/mean_projects/node_projects/nodetest2
+49 silly cache add args [ 'ws@0.3.8', null ]
+50 verbose cache add spec ws@0.3.8
+51 silly cache add parsed spec Result {
+51 silly cache add   raw: 'ws@0.3.8',
+51 silly cache add   scope: null,
+51 silly cache add   name: 'ws',
+51 silly cache add   rawSpec: '0.3.8',
+51 silly cache add   spec: '0.3.8',
+51 silly cache add   type: 'version' }
+52 silly addNamed ws@0.3.8
+53 verbose addNamed "0.3.8" is a plain semver version for ws
+54 silly mapToRegistry name ws
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry uri https://registry.npmjs.org/ws
+58 verbose addNameVersion registry:https://registry.npmjs.org/ws not in flight; fetching
+59 verbose already installed skipping jade@~1.9.2 /Users/kemuri/mean_projects/node_projects/nodetest2
+60 verbose already installed skipping morgan@~1.5.3 /Users/kemuri/mean_projects/node_projects/nodetest2
+61 verbose already installed skipping serve-favicon@~2.2.1 /Users/kemuri/mean_projects/node_projects/nodetest2
+62 verbose already installed skipping mongodb@~2.0.33 /Users/kemuri/mean_projects/node_projects/nodetest2
+63 verbose request uri https://registry.npmjs.org/ws
+64 verbose request no auth needed
+65 info attempt registry request try #1 at 12:38:14 PM
+66 verbose request id 66ae90db92a3536e
+67 verbose etag "26A3EURT61D3UEY83GKL4IJZ1"
+68 http request GET https://registry.npmjs.org/ws
+69 http 304 https://registry.npmjs.org/ws
+70 silly get cb [ 304,
+70 silly get   { date: 'Tue, 02 Feb 2016 07:08:14 GMT',
+70 silly get     via: '1.1 varnish',
+70 silly get     'cache-control': 'max-age=300',
+70 silly get     etag: '"26A3EURT61D3UEY83GKL4IJZ1"',
+70 silly get     age: '221',
+70 silly get     connection: 'keep-alive',
+70 silly get     'x-served-by': 'cache-sin6921-SIN',
+70 silly get     'x-cache': 'HIT',
+70 silly get     'x-cache-hits': '9',
+70 silly get     'x-timer': 'S1454396894.891729,VS0,VE0',
+70 silly get     vary: 'Accept' } ]
+71 verbose etag https://registry.npmjs.org/ws from cache
+72 verbose get saving ws to /Users/kemuri/.npm/registry.npmjs.org/ws/.cache.json
+73 silly cache afterAdd ws@0.3.8
+74 verbose afterAdd /Users/kemuri/.npm/ws/0.3.8/package/package.json not in flight; writing
+75 verbose afterAdd /Users/kemuri/.npm/ws/0.3.8/package/package.json written
+76 silly install resolved [ { author:
+76 silly install resolved      { name: 'Einar Otto Stangvik',
+76 silly install resolved        email: 'einaros@gmail.com',
+76 silly install resolved        url: 'http://2x.io' },
+76 silly install resolved     name: 'ws',
+76 silly install resolved     description: 'simple and very fast websocket protocol client for node.js',
+76 silly install resolved     version: '0.3.8',
+76 silly install resolved     repository: { type: 'git', url: 'git://github.com/einaros/ws.git' },
+76 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+76 silly install resolved     bin: { wscat: './bin/wscat' },
+76 silly install resolved     scripts: { test: 'make test', preinstall: 'make validator' },
+76 silly install resolved     engines: { node: '>=0.4.0' },
+76 silly install resolved     dependencies: { commander: '0.5.0', options: 'latest' },
+76 silly install resolved     devDependencies:
+76 silly install resolved      { mocha: '0.3.x',
+76 silly install resolved        should: '0.3.2',
+76 silly install resolved        benchmark: '0.3.x',
+76 silly install resolved        tinycolor: '0.x' },
+76 silly install resolved     _npmUser: { name: 'einaros', email: 'einaros@gmail.com' },
+76 silly install resolved     _id: 'ws@0.3.8',
+76 silly install resolved     _engineSupported: true,
+76 silly install resolved     _npmVersion: '1.1.0-beta-4',
+76 silly install resolved     _nodeVersion: 'v0.6.6',
+76 silly install resolved     _defaultsLoaded: true,
+76 silly install resolved     dist:
+76 silly install resolved      { shasum: '34bcb09d0c3a32d7c2ba6fd1ee900662c9e35e23',
+76 silly install resolved        tarball: 'http://registry.npmjs.org/ws/-/ws-0.3.8.tgz' },
+76 silly install resolved     maintainers: [ [Object] ],
+76 silly install resolved     directories: {},
+76 silly install resolved     _shasum: '34bcb09d0c3a32d7c2ba6fd1ee900662c9e35e23',
+76 silly install resolved     _resolved: 'https://registry.npmjs.org/ws/-/ws-0.3.8.tgz',
+76 silly install resolved     _from: 'ws@0.3.8',
+76 silly install resolved     bugs: { url: 'https://github.com/einaros/ws/issues' },
+76 silly install resolved     readme: 'ERROR: No README data found!',
+76 silly install resolved     homepage: 'https://github.com/einaros/ws#readme' } ]
+77 info install ws@0.3.8 into /Users/kemuri/mean_projects/node_projects/nodetest2
+78 info installOne ws@0.3.8
+79 verbose installOne of ws to /Users/kemuri/mean_projects/node_projects/nodetest2 not in flight; installing
+80 verbose lock using /Users/kemuri/.npm/_locks/ws-f08578fde25f8d1e.lock for /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws
+81 silly install write writing ws 0.3.8 to /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws
+82 verbose unbuild node_modules/ws
+83 silly gentlyRm /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws is being purged from base /Users/kemuri/mean_projects/node_projects/nodetest2
+84 verbose gentlyRm don't care about contents; nuking /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws
+85 verbose tar unpack /Users/kemuri/.npm/ws/0.3.8/package.tgz
+86 verbose tar unpacking to /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws
+87 silly gentlyRm /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws is being purged
+88 verbose gentlyRm don't care about contents; nuking /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws
+89 silly gunzTarPerm modes [ '755', '644' ]
+90 silly gunzTarPerm extractEntry wscript
+91 silly gunzTarPerm extractEntry lib/
+92 silly gunzTarPerm extractEntry lib/Sender.js
+93 silly gunzTarPerm extractEntry lib/WebSocket.js
+94 silly gunzTarPerm extractEntry lib/Validation.js
+95 silly gunzTarPerm extractEntry lib/BufferPool.js
+96 silly gunzTarPerm extractEntry lib/WebSocketServer.js
+97 silly gunzTarPerm extractEntry lib/BufferUtil.js
+98 silly gunzTarPerm extractEntry lib/ErrorCodes.js
+99 silly gunzTarPerm extractEntry lib/Receiver.js
+100 silly gunzTarPerm extractEntry Makefile
+101 silly gunzTarPerm extractEntry package.json
+102 silly gunzTarPerm extractEntry index.js
+103 silly gunzTarPerm extractEntry src/
+104 silly gunzTarPerm extractEntry src/validation.cc
+105 silly gunzTarPerm extractEntry src/bufferutil.cc
+106 silly gunzTarPerm extractEntry .npmignore
+107 silly gunzTarPerm extractEntry bin/
+108 silly gunzTarPerm extractEntry bin/wscat
+109 silly gunzTarPerm extractEntry bench/
+110 silly gunzTarPerm extractEntry bench/WebSocket.benchmark.js
+111 silly gunzTarPerm extractEntry bench/util.js
+112 silly gunzTarPerm extractEntry test/
+113 silly gunzTarPerm extractEntry test/hybi-common.js
+114 silly gunzTarPerm extractEntry test/testserver.js
+115 silly gunzTarPerm extractEntry test/WebSocket.integration.js
+116 silly gunzTarPerm extractEntry test/WebSocket.test.js
+117 silly gunzTarPerm extractEntry test/Sender.test.js
+118 silly gunzTarPerm extractEntry test/BufferPool.test.js
+119 silly gunzTarPerm extractEntry test/WebSocketServer.test.js
+120 silly gunzTarPerm extractEntry test/fixtures/
+121 silly gunzTarPerm extractEntry test/fixtures/textfile
+122 silly gunzTarPerm extractEntry test/Validation.test.js
+123 silly gunzTarPerm extractEntry test/Receiver.test.js
+124 silly gunzTarPerm extractEntry test/autobahn-server.js
+125 silly gunzTarPerm extractEntry test/autobahn.js
+126 silly gunzTarPerm extractEntry History.md
+127 silly gunzTarPerm extractEntry README.md
+128 verbose write writing to /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws/package.json
+129 info preinstall ws@0.3.8
+130 verbose unsafe-perm in lifecycle false
+131 info ws@0.3.8 Failed to exec preinstall script
+132 verbose unlock done using /Users/kemuri/.npm/_locks/ws-f08578fde25f8d1e.lock for /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws
+133 verbose stack Error: ws@0.3.8 preinstall: `make validator`
+133 verbose stack Exit status 2
+133 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+133 verbose stack     at emitTwo (events.js:87:13)
+133 verbose stack     at EventEmitter.emit (events.js:172:7)
+133 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+133 verbose stack     at emitTwo (events.js:87:13)
+133 verbose stack     at ChildProcess.emit (events.js:172:7)
+133 verbose stack     at maybeClose (internal/child_process.js:818:16)
+133 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+134 verbose pkgid ws@0.3.8
+135 verbose cwd /Users/kemuri/mean_projects/node_projects/nodetest2
+136 error Darwin 14.5.0
+137 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+138 error node v4.1.2
+139 error npm  v2.14.4
+140 error code ELIFECYCLE
+141 error ws@0.3.8 preinstall: `make validator`
+141 error Exit status 2
+142 error Failed at the ws@0.3.8 preinstall script 'make validator'.
+142 error This is most likely a problem with the ws package,
+142 error not with npm itself.
+142 error Tell the author that this fails on your system:
+142 error     make validator
+142 error You can get their info via:
+142 error     npm owner ls ws
+142 error There is likely additional logging output above.
+143 verbose exit [ 1, true ]
+144 verbose unbuild node_modules/ws
+145 info preuninstall ws@0.3.8
+146 info uninstall ws@0.3.8
+147 verbose unbuild rmStuff ws@0.3.8 from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules
+148 silly gentlyRm /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/.bin/wscat is being gently removed
+149 silly gentlyRm verifying /Users/kemuri/mean_projects/node_projects/nodetest2 is an npm working directory
+150 silly gentlyRm containing path /Users/kemuri/mean_projects/node_projects/nodetest2 is under npm's control, in /Users/kemuri/mean_projects/node_projects/nodetest2
+151 silly gentlyRm deletion target /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/.bin/wscat is under /Users/kemuri/mean_projects/node_projects/nodetest2
+152 verbose gentlyRm vacuuming from /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/.bin/wscat up to /Users/kemuri/mean_projects/node_projects/nodetest2
+153 info postuninstall ws@0.3.8
+154 silly gentlyRm /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws is being purged from base /Users/kemuri/mean_projects/node_projects/nodetest2
+155 verbose gentlyRm don't care about contents; nuking /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws
+156 silly vacuum-fs purging /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules/ws
+157 silly vacuum-fs quitting because other entries in /Users/kemuri/mean_projects/node_projects/nodetest2/node_modules
